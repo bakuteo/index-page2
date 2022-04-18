@@ -1,0 +1,85 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 100%;
+        scroll-behavior: smooth;
+        
+}
+#bg{
+        height: 1080px;
+        background-color: white; /* For browsers that do not support gradients */
+            background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(148, 205, 202, 0.425) 44.27%, rgba(232, 250, 236, 0.5) 100%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF)
+        !important;
+    }
+@font-face {
+        font-family: 'DINRoundOT';
+        src: url(../font/Din/DINRoundOT.otf);
+        
+}
+@font-face {
+        font-family: 'DINRoundOT-B';
+        src: url(../font/Din/DINRoundOT-Bold.otf);
+        font-weight: bold;
+}
+@font-face {
+        font-family: 'UTM';
+        src: url(../font/UTM-Futura-Extra.ttf);
+        font-weight: bold;
+}
+
+@font-face{
+        font-family: 'UTM-B';
+        src: url(../font/UTM-Futura-Extra.ttf);
+        font-weight: 800px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::-webkit-input-placeholder {
+        color: #285929;
+        transition: opacity 250ms ease-in-out;
+}
+
+
+input:focus, textarea:focus, select:focus{
+        outline: none;
+}
+
+
+.arrow {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+      }
+      
+.right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+      
+.left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+      }
+      
+.up {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+      }
+      
+.down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+}
+
+.open{
+        display: block;
+}

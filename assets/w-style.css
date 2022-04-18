@@ -1,0 +1,259 @@
+
+
+
+
+.contain-1, .background_svg{
+    position: absolute;
+}
+.background_svg{
+    width: -webkit-fill-available;
+    height: auto;
+}
+
+.banner_th{
+    position: absolute;
+    width: 32rem;
+    padding: 30px 135px;
+}
+
+
+.banner_img{
+    position: absolute;
+    padding: 25px 650px;
+}
+.bn_img{
+    height: 100%;
+    width: 99%;
+}
+
+/* Box */
+.contain_2{
+    position: absolute;
+    top: 50%;
+    left: 29%;
+    padding: 20px;
+    background-color: #FFFFFF;
+    width: fit-content;
+    border-radius: 40px;
+}
+
+.center{
+    font-family: 'DINRoundOT-B';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: center;
+
+    color: #285929;
+    opacity: 0.8;
+}
+.box_text{
+    font-family: 'DINRoundOT-B';
+    font-size: 40px;
+    line-height: 54.28px;
+    align-items: center;
+    text-align: center;
+    color: #178518;
+    text-shadow: 0px 12px 40px rgba(0, 0, 0, 0.25);
+}
+.box_f1{
+    display: flex;
+    margin-top: 32px;
+}
+.box_fsel{
+    
+    font-family: 'DINRoundOT-B';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+
+    color: #285929;
+    opacity: 0.8;
+    width: 50%;
+
+    margin: 0 20px;
+    border-radius: 24px;
+}
+
+.spin_btn{
+    padding-top: 40px;
+    padding-left: 220px;
+}
+
+.sp_int{
+    font-family: 'DINRoundOT-B';
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    
+
+    position: absolute;
+    width: 284.16px;
+    height: 80px;
+    background: #DB320D;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    border: 2px solid #df5435;
+}
+.sp_int:hover{
+    background-color: #df5435;
+}
+.box_sl{
+    padding: 20px;
+    margin-top: 10px;
+    font-family: 'DINRoundOT-B';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #285929;
+    opacity: 0.8;
+    border: 1px solid #285929;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 12px 30px rgba(0, 0, 0, 0.1));
+    border-radius: 24px;
+}
+
+
+
+
+
+/* IMG - DONE */
+.img-r{
+    position: absolute;
+    left: 70%;
+    display: grid;
+    padding-top: 255px;
+    /* padding-right: 150px; */
+}
+
+.img-l{
+    position: absolute;
+    top: 42%;
+}
+
+
+/* MODAL */
+.bgModal{
+    background-color: rgba(77, 77, 77, 0.78);
+    height: 1080px;
+    position: sticky;
+    display: none;
+}
+.modal{
+    position: fixed;
+    z-index: 1;
+    width: 720px;
+    height: 836px;
+    left: 28%;
+    /* display: none; */
+    
+}
+.text-modal{
+    position: absolute;
+    padding: 15px;
+    top: 6%;
+    z-index: 1;
+    left: 20%;
+    padding: 20px;
+    /*  */
+    font-family: 'DINRoundOT';
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 43px;
+    display: flex;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    /*  */
+    background: #285929;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+}
+.modal-container{
+    position: absolute;
+    width: 720px;
+    height: 755px;
+    bottom: 0%;
+    left: 6%;
+    /* Linear (3 paints) */
+
+    background: linear-gradient(270.91deg, rgba(148, 205, 202, 0.25) 1.28%, rgba(208, 230, 213, 0.25) 99.73%), #FFFFFF;
+    border-radius: 24px;
+}
+
+.modal-container .modal-svg{
+    border-radius: 24px;
+}
+.modal-img__1{
+    position: absolute;
+    top: 9%;
+    left: 7%;
+}
+.img__1{
+    position: absolute;
+    left: 32%;
+}
+.img__2{
+    position: absolute;
+    top: 62%;
+    left: 15%;
+}
+.modal-box{
+    font-family: DINRoundOT;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    color: #285929;
+    opacity: 0.8;
+    text-transform: uppercase;
+
+
+    padding: 20px 49px;
+
+    position: absolute;
+    width: 382px;
+    height: 99.06px;
+    
+
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+}
+
+.box__1{
+    left: 170px;
+    top: 172px;
+}
+
+.box__2{
+    left: 170px;
+    top: 292px;
+}
+
+.sp_int__2{
+    font-family: 'DINRoundOT';
+    font-weight: bolder;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    
+
+    position: absolute;
+    width: 284.16px;
+    height: 80px;
+    background: #DB320D;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    border: 2px solid #df5435;
+
+    left: 29%;
+    bottom: 5%;
+}
+.sp_int__2:hover{
+    background-color: #df5435;
+}
