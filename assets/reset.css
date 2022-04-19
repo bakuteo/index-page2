@@ -6,12 +6,45 @@
         scroll-behavior: smooth;
         
 }
+body{
+        width: 100vw;
+        /* overflow-x: hidden; */
+        height: auto;
+    }
+    
+.home{
+        display: flex;
+        flex-direction: row;
+    }
 #bg{
-        height: 1080px;
+        position: absolute;
+        min-width: 100%;
+        min-height:100%;
         background-color: white; /* For browsers that do not support gradients */
-            background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(148, 205, 202, 0.425) 44.27%, rgba(232, 250, 236, 0.5) 100%),
-    linear-gradient(0deg, #FFFFFF, #FFFFFF)
+            background-image:url(../img/background.svg),
+            linear-gradient(0deg,
+             rgba(255, 255, 255, 0.5) 0%,
+              rgba(148, 205, 202, 0.425) 44.27%,
+               rgba(232, 250, 236, 0.5) 100%),
+                linear-gradient(0deg, #FFFFFF, #FFFFFF)
         !important;
+        background-repeat: no-repeat;
+        background-size: contain;
+}
+@media screen and (max-width: 1443px) and (min-width: 920px) {
+        *{
+            font-size:15px !important;
+        }
+    }
+    @media screen and (max-width: 1919px) and (min-width: 1444px) {
+        *{
+            font-size:17px !important;
+        }
+    }
+    @media screen and (min-width: 1920px) {
+        *{
+            font-size:20px !important;
+        }
     }
 @font-face {
         font-family: 'DINRoundOT';
@@ -81,5 +114,4 @@ input:focus, textarea:focus, select:focus{
 }
 
 .open{
-        display: block;
-}
+        display: block;}
